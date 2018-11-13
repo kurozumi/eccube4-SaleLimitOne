@@ -1,0 +1,9 @@
+{
+  "name": "ec-cube/SaleLimitOne",
+  "version": "1.0.0",
+  "description": "商品を一個しか購入できないプラグイン",
+  "type": "eccube-plugin",
+  "extra": {
+    "code": "SaleLimitOne"
+  }
+}
