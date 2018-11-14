@@ -22,7 +22,7 @@ trait ProductClassTrait {
      */
     private $sale_limit_one;
 
-    public function getSaleLimitOne()
+    public function isSaleLimitOne()
     {
         return $this->sale_limit_one;
     }

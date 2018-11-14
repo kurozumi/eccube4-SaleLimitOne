@@ -26,7 +26,7 @@ class SaleLimitOneValidator extends ItemValidator {
             return;
         }
 
-        if ($item->getProductClass()->getSaleLimitOne()) {
+        if ($item->getProductClass()->isSaleLimitOne()) {
             $quantity = $item->getQuantity();
             if (1 < $quantity) {
                 $this->throwInvalidItemException('商品は１個しか購入できません。');
